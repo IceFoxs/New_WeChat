@@ -1,0 +1,244 @@
+#mywallet{
+	position: fixed;
+	width: 100%;
+	top:72px;
+	bottom:0px;
+	background-color:#EBEBEB;
+	float:left;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index:-1;
+}
+
+#mywallet_first{
+	width: 100%;
+	height:120px;
+	background-color: #686F78;
+	display:flex;
+	flex-flow: row nowrap; 
+}
+#mywallet_tencent_services{
+	margin-top: 5px;
+	height:240px;
+	width: 100%;
+	background-color: #FFFFFF;
+	display: flex ;
+	flex-flow:row wrap;
+	align-items: center;
+}
+#credit_card_All,#recharge_All,#manage_money_All,
+#life_pay_All,#penguin_All,#city_service_All,#public_welfare_All{
+	height: 80px;
+	width:100%;
+}
+#public_welfare_img{
+	width:100%;
+	padding-top:10px ;
+	height:30px;
+	background: url(../img/public_welfare.svg);
+	background-size: contain;
+	background-origin: content-box;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#city_service_img{
+	width:100%;
+	padding-top:10px ;
+	height:30px;
+	background: url(../img/city_service.svg);
+	background-size: contain;
+	background-origin: content-box;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#penguin_img{
+	width:100%;
+	padding-top:10px ;
+	height:30px;
+	background: url(../img/penguin.svg);
+	background-size: contain;
+	background-origin: content-box;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#credit_card_img{
+	width:100%;
+	padding-top:10px ;
+	height:30px;
+	background: url(../img/credit_card.svg);
+	background-size: contain;
+	background-origin: content-box;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#recharge_img{
+	width:100%;
+	padding-top:10px ;
+	height:30px;
+	background: url(../img/recharge.svg);
+	background-size: contain;
+    background-origin: content-box;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#manage_money_img{
+	width:100%;
+	padding-top:10px ;
+	height:30px;
+	background: url(../img/manage_money.svg);
+	background-size: contain;
+    background-origin: content-box;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#life_pay_img{
+	width:100%;
+	padding-top:10px ;
+	height:30px;
+	background: url(../img/life_pay.svg);
+	background-size: contain;
+	background-origin: content-box;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#credit_card_name,#recharge_name,#manage_money_name,
+#life_pay_name,#penguin_name,#city_service_name,#public_welfare_name{
+	width:100%;
+	height:40px;
+	color:#67656C;
+	text-align: center;
+}
+
+.mywallet_tencent_all{
+	width:33.3%;
+	display: flex ;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+#mywallet_first_pay_box{
+	width:33%;
+	height:120px;
+	display: inline-block;
+}
+#mywallet_first_change_box{
+	width:34%;
+	height:120px;
+	display: inline-block;
+}
+#mywallet_first_bank_card_box{
+	width:33%;
+	height:120px;
+	display: inline-block;
+}
+#mywallet_first_pay,#mywallet_first_change,#mywallet_first_bank_card{
+	width:100%;
+	height:100%;
+	display: flex ;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+/*#mywallet_first_change{
+	width:100%;
+	height:100%;
+	display: flex ;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}*/
+#mywallet_first_pay_All,#mywallet_first_change_All,#mywallet_first_bank_card_All{
+	height: 80px;
+	width:80px;
+}
+#mywallet_first_pay_img{
+	width:100%;
+	height:40px;
+	background: url(../img/pay.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#mywallet_first_bank_card_img{
+	width:100%;
+	height:40px;
+	background: url(../img/bank_card.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#mywallet_first_change_img{
+	width:100%;
+	height:40px;
+	background: url(../img/change.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	top:4px;
+}
+#mywallet_first_change_use{
+	width:100%;
+	height:40px;
+	color:#BABDC2;
+    font-size:12px;
+	text-align: center;
+	position: relative;
+	top:-10px;
+}
+#mywallet_first_pay_name,#mywallet_first_change_name,#mywallet_first_bank_card_name{
+	width:100%;
+	height:40px;
+	color:#FFFFFF;
+	position: relative;
+	top:4px;
+	text-align: center;
+}
+#top_wallet{
+    height:50px;
+	width: 100%;
+	top:22px;
+	bottom:0px;
+	background-color:#393A3E;
+	position: fixed;
+	visibility: hidden;
+	z-index:0;
+}
+#top_wallet_return{
+	height: 24px;
+	width: 24px;
+	padding: 13px 13px 13px 13px;
+	background: url(../img/return.svg);
+	background-origin: content-box;
+	background-position: 100% 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+#top_wallet_name{
+	display: inline-block;
+	height: 24px;
+	color: #FFFFFF;
+	line-height: 24px;
+	position: relative;
+	font-size: 20px;
+	top:-18px;
+	padding: 13px 13px 13px 13px;
+}
+#top_wallet_right{
+	height: 24px;
+	width: 24px;
+	padding: 13px 13px 13px 13px;
+	background: url(../img/more.svg);
+	background-origin: content-box;
+	background-position: 100% 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+}
+#top_wallet_return:hover,#top_wallet_right:hover{
+	background-color:#303135;
+	outline: none;
+}
